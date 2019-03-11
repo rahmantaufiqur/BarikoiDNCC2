@@ -1,0 +1,434 @@
+<resources>
+    <string name="app_name">DNCC Holding Assessment App</string>
+    <string name="access_token">pk.eyJ1IjoidGF1ZmlxdXIiLCJhIjoiY2pwbDN0MjY1MDdnMzN4bnlodjN6dTl3cyJ9.PyaOKSsCoRt0PbtG-B6nug</string>
+    <string name="FACEBOOK_APP_ID" translatable="false">284616012036522</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN" translatable="false">4cd9ffa3ad8979a04cca9a5694b6eabd</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="longitude">Longitude</string>
+    <string name="place_coordinates">Place Coordinates</string>
+    <string name="lattitude">Lattitude:</string>
+    <string name="details_of_address">Details of address...</string>
+    <string name="place_address">Place Address</string>
+    <string name="go_back">Go back</string>
+    <string name="submit">Submit</string>
+    <string name="select_place">Select place</string>
+    <string name="get_your_own_landmark">Get Your Own landmark!</string>
+    <string name="ok">ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="congtats">Congrats!</string>
+    <string name="view_own_places">View own places</string>
+    <string name="provide_us_with_info_about_your_awesome_place">Fill up your address properly and done!</string>
+    <string name="city">City</string>
+    <string name="now_what_should_we_call_this_awesome_place">Now,what should we call this awesome place?</string>
+    <string name="area_name">Area Name</string>
+    <string name="search">Search</string>
+    <string name="search_for_a_public_place_with_code">Search for a public place with code</string>
+    <string name="code_of_the_place">Code of the Place</string>
+    <string name="current_location">Current location</string>
+    <string name="would_u_gps">GPS is turned off, turn it on?</string>
+    <string name="location_settings">Location Settings</string>
+    <string name="share">Share</string>
+    <string name="code">Code</string>
+    <string name="get_directions">Directions</string>
+    <string name="textview">TextView</string>
+    <string name="own_places">Own Places</string>
+    <string name="sharelinkintro">"Check out my place in Barikoi at "</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="place_details">Place Details</string>
+    <string name="place_delete">Delete Place</string>
+    <string name="place_update">Update Place</string>
+    <string name="select_new_place">Select New Place</string>
+    <string name="update_place_details">Update Place Details</string>
+    <string name="title_activity_inputplace">Input Place Details</string>
+    <string name="change_placename_prompt">Do you Want to Change the Name?</string>
+    <string name="title_activity_place_update_details">Upadate Place Details</string>
+    <string name="code_for__place">Please tell us what code you want for your place</string>
+    <string name="desired_code">Desired Code</string>
+    <string name="get_code">Get Code</string>
+    <string name="title_activity_getCustomCode">Get Custom Code</string>
+    <string name="title_activity_how_to">How To</string>
+    <string name="save_place">Save Place</string>
+    <string name="favourites">Favourites</string>
+    <string name="public_places">Public Places</string>
+    <string name="clean_offline">clear cache</string>
+    <string name="postal_code">Postal Code</string>
+    <string name="sector">Sector/Section</string>
+    <string name="street">Road no./name</string>
+    <string name="house">House no./name</string>
+    <string name="flat">Flat/floor</string>
+    <string name="place_type">Place Type</string>
+    <string name="sub_type">Sub-type</string>
+    <string name="this_field_is_required">This field is required</string>
+    <string name="wrong_input">Wrong Input</string>
+    <string name="password_error">More than 4 alphanumeric characters</string>
+    <string name="privat">Private</string>
+    <string name="publi">Public</string>
+    <string name="name_of_the_place">Name of the place/business/house</string>
+    <string name="address">Address</string>
+    <string name="area">Area</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="search_nearby_places_by_code">Search nearby places by code</string>
+    <string name="nearby">Nearby</string>
+    <string name="block">Block no.</string>
+    <string name="tap_on_the_screen_to_select_exact_position">Tap on the screen to select exact position</string>
+    <string name="marker">marker</string>
+    <string name="CustomFontPath">fonts/Roboto/Roboto-Light.ttf</string>
+    <string name="logout">Log Out</string>
+    <string name="home">Add Home/Work</string>
+    <string name="login">Login</string>
+    <string name="or">or</string>
+    <string name="signup">Sign up</string>
+    <string name="share_current_location">Share current location via..</string>
+    <string name="change_pass">Change Passsword</string>
+    <string name="forgot_pasword">Forgot pasword?</string>
+    <string name="title_activity_change_pass">Change Password</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="new_pass_again">New password (type again)</string>
+    <string name="passwords_dont_match">Passwords do not match</string>
+
+    <string name="next">NEXT</string>
+
+    <string name="skip">SKIP</string>
+
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Barikoi</string>
+
+    <string name="slide_1_desc">Find addresses easily in Dhaka and never get lost again!</string>
+
+    <string name="slide_2_title">Everything around you</string>
+
+    <string name="slide_2_desc">Find nearby places such as food, utilities, services!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+
+    <string name="slide_3_desc">Get offers at instant near you!</string>
+
+    <string name="slide_4_title">Explore!</string>
+
+    <string name="slide_4_desc">Explore your area, find new places!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+
+    <string name="play_again">Play Again</string>
+    <string name="processing_request">Processing request....</string>
+    <string name="update">Update</string>
+    <string name="edit">Edit</string>
+    <string name="welcome">Welcome</string>
+    <string name="add_a_place">Add Home and Work Address!</string>
+    <string name="your_refferal__code_is">Your invite code is</string>
+    <string name="share_code_to_get__prize">Share the invite code below,and when people redeem that code, You get points!</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="redeem">Redeem</string>
+    <string name="redeem_code_from_friends">Redeem code that you got from friends (You can only do it once)</string>
+    <string name="type_refferal_code_here">Type invite code here</string>
+    <string name="share_referral_code">Share invite code...</string>
+    <string name="invite_code">Invite Code</string>
+    <string name="almost_there">Almost there!</string>
+    <string name="type_old_and_new_pass">Type in your old password and your new password below</string>
+    <string name="four_letter_part">4 Letter Part</string>
+    <string name="four_digit_part">4 Letter Part</string>
+    <string name="email">Email</string>
+    <string name="no_acc_creat_one">No account yet? Create one</string>
+    <string name="password">Password</string>
+    <string name="phone">Phone</string>
+    <string name="area_thana">Area/Thana</string>
+    <string name="flat_house_road_block_locality">flat, house, road, block, locality</string>
+    <string name="type_place_code_or_name">Type place code or name</string>
+    <string name="you_have_already_redeemed_a_code">You have already redeemed a code</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_in">Log in</string>
+    <string name="congrats">Congrats!</string>
+    <string name="add_your_home_and_office_to_get_the_signup_bonus">Add your home and office</string>
+    <string name="or_skip">Or Skip</string>
+    <string name="you_have_earned_10_point_for_signing_up">You have earned 10 point for signing up.</string>
+    <string name="be_a_neta">Sadly no one added places nearby you or your home. But you can add one landmark so that we can make your life a bit easier</string>
+    <string name="nofav">You have not added any favorite places yet</string>
+    <string name="email_address">Email Address</string>
+    <string name="enter_your_email_of_the_account_to_get_a_mail_containing_your_new_passord">Enter your email of the account to get a mail containing your new passord</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="points">Points</string>
+    <string name="nearby_places">Nearby Places</string>
+    <string name="you_got_5_points">You got 5 points!</string>
+    <string name="done_with_your_place_entry_the_code_is">Done with your place entry! the code is:</string>
+    <string name="add_new_place">Add New Place</string>
+    <string name="get_custom_code">Get Custom Code</string>
+    <string name="gift_store_coming_soon">Gift Store (coming soon)</string>
+    <string name="how_to">How To</string>
+    <string name="profile">Profile</string>
+    <string name="share_current_place">Share Current Place</string>
+    <string name="need_more_zoom">Need to zoom more to get better view at your place!</string>
+    <string name="language">English</string>
+    <string name="could_not_get_location">Could not get GPS location</string>
+    <string name="could_not_con_acc">Could not connect to account</string>
+    <string name="prob_change_server">Problem or change in server, please wait and try again</string>
+    <string name="press_again_exit">Press again  to exit</string>
+    <string name="back_to_main">Proceed to main page</string>
+    <string name="you_got">You got</string>
+    <string name="redeem_reward">Redeem Reward</string>
+    <string name="sure_redeem_reward">Are you sure you want to redeem this reward?</string>
+    <string name="done">Done</string>
+    <string name="reward_req_done">Reward Request Submitted Successfully,Please give us some time to Confirm it</string>
+    <string name="points_available">Points available:</string>
+    <string name="use_your_earned_points_to_get_exciting_prizes">Use your earned points to get exciting prizes!</string>
+    <string name="sorry">Sorry</string>
+    <string name="wait_until_req_accepted">You have a redeem request pending,please wait while we process your request.</string>
+    <string name="rewards">Rewards</string>
+    <string name="permission_location">Barikoi needs permission to Access Your Location</string>
+
+    <string name="leaderboard">Leaderboard</string>
+    <string name="last_7days">Last 7 days</string>
+    <string name="last_30days">Last 30 days</string>
+    <string name="to_date">To date</string>
+    <string name="level1">Level 1</string>
+    <string name="level5">Level 5</string>
+    <string name="level4">Level 4</string>
+    <string name="level3">Level 3</string>
+    <string name="level2">Level 2</string>
+    <string name="addinstruc1">Click on the Own Places icon at the bottom of Home Screen and then click \'Add a New Place\'</string>
+    <string name="addinstruc2">Position the marker by dragging in the map where you want to make your mark, then click \'SELECT PLACE\'</string>
+    <string name="addinstruc3">Check the list if the Place is already on the list, otherwise click \'Not in the list, Skip\'</string>
+    <string name="addinstruc4">On the next page fill out the form about the details of your address</string>
+    <string name="addinstruc5">Click Submit to finish and get a code!</string>
+
+    <string name="editInstruc1">Click on the place to open in place view</string>
+    <string name="editInstruc2">in the place view, click on the button with an image of Three Dots, then select \'Update Place\'</string>
+    <string name="editInstruc3">Just like adding a place, a map will appear ,drag the map to set the changed location and click \'SELECT PLACE\'</string>
+    <string name="editInstruc4">then change the address inputs where needed and click Submit, done!</string>
+    <string name="delInstruc1">Click on the place to open in place view</string>
+    <string name="delInstruc2">in the place view, click on the button with an image of Three Dots, a popup menu will appear, then Select \'Delete Place\'</string>
+    <string name="delInstruc3">Confirm deletion by clicking \'Ok\'</string>
+    <string name="addingPlace">Adding a Place</string>
+    <string name="updaatingPlace">Updating a Place</string>
+    <string name="deletingPlace">Deleting a Place</string>
+    <string name="capture_camera">Capture photo from camera</string>
+    <string name="selectgallery">Select photo from gallery</string>
+    <string name="selectAction">Select Action</string>
+    <string name="need4letters">Need 4 letters in 1st part</string>
+    <string name="need4alpha">Need only alphabets in 1st part</string>
+    <string name="need4num">Need 4 numbers in 2nd part</string>
+    <string name="sorryCodeTaken">Sorry,this code is already taken. Try again maybe?</string>
+    <string name="isAvailableWantIt">" is avilable, are you sure you want this code?"</string>
+    <string name="done_update">done with your place update!</string>
+    <string name="total_earned">Total earned:</string>
+    <string name="spent">Spent:</string>
+    <string name="barikoi_maps">Barikoi Directions</string>
+    <string name="Google_maps">Google Maps</string>
+    <string name="Reward_Details">Instructions for Rewards</string>
+    <string name="lettersrequired">Minimum 2 letters required</string>`
+    <string name="click_on_place_add_fav">Click on the place you want to add to favorites</string>
+    <string name="press_star_beside_code">Press on the star mark once beside the code</string>
+    <string name="remove_fav_press_star_again">To Remove from the favorites press again on the star mark</string>
+    <string name="add_place_with_corr_info">Add places with correct information</string>
+    <string name="refer_friend">Refer a friend</string>
+    <string name="add_pictures_to_place">Add pictures to a place</string>
+    <string name="checking_in_place">Checkin in a place</string>
+    <string name="review_place_product">Review a place or product</string>
+    <string name="how_to_fav">How to add Favorites</string>
+    <string name="how_to_points">How to get points</string>
+    <string name="tell_us_how_to_get_there_easily">Tell us how to get there easily</string>
+    <string name="no_place_found_add">No place found by this name or code, do you want to add it ?</string>
+    <string name="place_not_found">No place Found</string>
+    <string name="view_full_image">View full image</string>
+    <string name="delete_picture">Remove picture</string>
+    <string name="change_picture">Change picture</string>
+    <string name="select_pic">Select Picture</string>
+    <string name="select_image_first">Please select a picture first</string>
+    <string name="couldnot_connect">Could not connect</string>
+    <string name="couldnot_aunthenticate_user">Could not Authenticate User</string>
+    <string name="check_email_password_correct">Login failed,check if email and password is correct</string>
+    <string name="choose_direction_method">Choose Direction Method</string>
+    <string name="log_out">Log out</string>
+    <string name="sure_log_out">Are you sure you want to log out?</string>
+    <string name="earn_more_points_by_inviting_friends_with_referral_code">Earn more points by inviting friends with referral code!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="amarbike">AmarBike</string>
+    <string name="title_activity_amar_bike">AmarBike</string>
+    <string name="book_a_ride">Book a Ride</string>
+    <string name="pickup_point">Pickup Point</string>
+    <string name="dropoff_address">Dropoff Address</string>
+    <string name="pickup_address" translatable="false">House 1, Road 1...</string>
+    <string name="servicekoi">ServiceKoi</string>
+    <string name="sub_category">Sub Category</string>
+    <string name="submit_an_order">Submit an Order</string>
+    <string name="ghurbokoi">GhurboKoi</string>
+    <string name="order_a_delivary">Order a Delivery</string>
+    <string name="your_orders">Your Orders</string>
+    <string name="order_now">Order Now!</string>
+    <string name="pickup_address_from_your_barikoi">Pickup Address(from Barikoi</string>
+    <string name="preferred_pickup_time">Preferred Pickup Time</string>
+    <string name="product_details">Product Details</string>
+    <string name="product_weight_kg">Product Weight</string>
+    <string name="receiver_name">Receiver Name</string>
+    <string name="receiver_number">Receiver Number</string>
+    <string name="want_something_delivered_within_the_city_fast">Want something delivered within the city fast?</string>
+    <string name="pickup">Pickup</string>
+    <string name="Cancel_delivery">Cancel Delivery</string>
+    <string name="pickup_time">Pickup Time</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="set_pickup">Set Pickup Point</string>
+    <string name="set_drop">Set Destination</string>
+    <string name="product_price">Product Price in Tk. (optional)</string>
+    <string name="ride">Ride</string>
+    <string name="title_activity_ride_partner">RidePartnerActivity</string>
+    <string name="ridekoi">RideKoi</string>
+
+    <string name="deliverykoi">DeliveryKoi</string>
+    <string name="order_a_ride">Order a Ride</string>
+    <string name="request_a_ride">Request a Ride</string>
+    <string name="title_activity_select_place">Select Place</string>
+    <string name="ongoing">Ongoing</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="booked">Booked</string>
+    <string name="returned">Returned</string>
+    <string name="dropoff">Drop off</string>
+    <string name="pending">Pending</string>
+    <string name="Rides">Rides</string>
+    <string name="Cancel_ride">Cancel Ride</string>
+    <string name="book_ride_again">Order This Ride Again</string>
+    <string name="confirm_cancel">Are you Sure you want to Cancel?</string>
+    <string name="pick_a_time">Select Time for Pickup</string>
+    <string name="bike_rent">Bike Rent</string>
+    <string name="how_to_geet_there">How to get there:</string>
+
+    <!--OCR texts -->
+    <string name="permission_camera_rationale" translatable="false">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission" translatable="false">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error" translatable="false">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main" translatable="false">Ocr Detector Sample</string>
+    <string name="ocr_header" translatable="false">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text" translatable="false">Detect Text</string>
+    <string name="auto_focus" translatable="false">Auto Focus</string>
+    <string name="use_flash" translatable="false">Use Flash</string>
+    <string name="ocr_success" translatable="false">Text read successfully</string>
+    <string name="ocr_failure" translatable="false">No text captured</string>
+    <string name="ocr_error" translatable="false">"Error reading text: %1$s"</string>
+
+
+    <!--analytics text -->
+    <string name="category_networktime" translatable="false">Request Time</string>
+    <string name="name_login_network" translatable="false">Login Request Time</string>
+
+    <string name="category_formtime" translatable="false">Form Fillup Time</string>
+    <string name="name_login_formtime" translatable="false">Login Form Fillup Time</string>
+
+    <string name="category_formerror" translatable="false">Form Error</string>
+    <string name="name_login_formerror" translatable="false">Login Form Error</string>
+
+    <string name="category_add" translatable="false">Add Place</string>
+    <string name="name_add" translatable="false">Add Place</string>
+    <string name="name_customadd" translatable="false">Add Custom Place</string>
+    <string name="name_locationtime" translatable="false">Location Receive Time</string>
+    <string name="category_buttonclick" translatable="false">Button Click</string>
+    <string name="name_update_formtime">Update Form Time</string>
+    <string name="name_add_formtime">Add Place Form Time</string>
+    <string name="category_place_buttonclick">Place View Click</string>
+    <string name="name_nearby_placeview">Nearby from PlaceView</string>
+    <string name="name_share_placeview">Share Place</string>
+    <string name="name_image_placeview">Image PlaceView</string>
+    <string name="unknown_error">Unknown Error Occured</string>
+    <string name="place_list">Place List</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+    <!-- TODO: change text for bottom nav items -->
+    <string name="text_view_Places">Own Places</string>
+    <string name="text_saved_places">Saved Places</string>
+    <string name="text_nearby_places">Explore</string>
+
+
+    //Bottom Sheet Own Place
+    <string name="text_view_add_new_place">Add New Place</string>
+
+    //Bottom Sheet Place Explore
+    <string name="text_view_explore_nearby">Explore Nearby</string>
+
+
+    //Bottom Sheet Navigation
+    <string name="button_start">Start</string>
+    <string name="text_view_distance_km">km</string>
+    <string name="text_view_distance">Distance</string>
+
+    //Bottom Sheet Explore Nearby
+    <string name="food">Food</string>
+    <string name="religious">Religious</string>
+    <string name="attractions">Attractions</string>
+    <string name="more">More</string>
+    <string name="currentAddress">Current Address</string>
+
+    //Activity Search Nearby
+    <string name="show_list">Nearby Place List</string>
+    <string name="hide_list">HIDE LIST</string>
+
+
+    //Activity More Place
+    <string name="hospital">Hospital</string>
+    <string name="bank">Bank</string>
+    <string name="education">Education</string>
+    <string name="policestation">Police Station</string>
+    <string name="hotel">Hotel</string>
+    <string name="toilet">Toilet</string>
+    <string name="fuel">Fuel</string>
+    <string name="bkash">BKash</string>
+    <string name="ucash">UCash</string>
+    <string name="surecash">SureCash</string>
+    <string name="parking">Parking</string>
+    <string name="generalStore">General Store</string>
+    <string name="market">Market</string>
+
+    //Add Place Fragment
+    <string name="buttonskip">Not in list? skip </string>
+    <string name="text_view_time_mins">Mins</string>
+    <string name="text_view_time">Time</string>
+    <string name="tvlist">Is your address already in the list?</string>
+
+    //botom sheet Ghurbo Koi Place Details
+    <string name="ward">Ward: </string>
+    <string name="zone">Zone: </string>
+    <string name="phoneNumber">Contact Number: </string>
+    <string name="code_info">This is the unique code of this place, which can be used for easier searching and communication</string>
+    <string name="sorry_no_place_listed_nearby">Sorry, this place is yet to be covered</string>
+    <string name="pharmacy">Pharmacy</string>
+    <string name="privacy_info">Privacy information</string>
+    <string name="public_private_info">If you make this public, any private information added in this place will be viewable publicly.  If ou make this private, it will not be searchable unless the 8 digit code of this place is shared.</string>
+    <string name="add_more_info">Add More Info</string>
+    <string name="hide">Hide</string>
+    <string name="AddHome">Home</string>
+    <string name="AddWork">Work</string>
+
+    //Profile Activity
+    <string name="Number_Own_places">Own Places</string>
+    <string name="Number_Saved_places">Saved Places</string>
+
+    //Barikoi Directions
+    <string name="current">Your Current Location</string>
+    <string name="destination">Your Destination</string>
+
+
+</resources>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/design_bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorlistBackground"
+    android:elevation="6dp"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    android:weightSum="1"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    tools:context=".MainActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/formcontainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/almost_there"
+                android:textAlignment="center"
+                android:textColor="@color/textcolorblue"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/provide_us_with_info_about_your_awesome_place"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/place_address" />
+
+            <EditText
+
+                android:id="@+id/editText_addressEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/flat_house_road_block_locality" />
+
+
+            <TableLayout
+                android:id="@+id/tableviewinput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="2">
+
+                    <EditText
+                        android:id="@+id/editTextArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:hint="@string/area_thana"
+                        android:inputType="textCapSentences|textPersonName"
+                        android:textAlignment="center" />
+
+                    <EditText
+                        android:id="@+id/editTextCity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/city"
+                        android:inputType="textCapSentences|textPersonName"
+                        android:textAlignment="center" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editTextPostal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="4"
+                        android:hint="@string/postal_code"
+                        android:inputType="numberDecimal"
+                        android:maxLength="4"
+                        android:textAlignment="center" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/privateInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:padding="4dp"
+                            android:src="@drawable/info" />
+
+                        <Switch
+                            android:id="@+id/switchPublic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+
+                            android:layout_gravity="end"
+
+                            android:paddingEnd="10dp"
+                            android:paddingRight="10dp"
+                            android:text="@string/privat"
+                            android:textAlignment="viewEnd" />
+                    </LinearLayout>
+
+                </TableRow>
+
+            </TableLayout>
+
+            <EditText
+                android:id="@+id/editTextPlaceName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/name_of_the_place"
+                android:inputType="textCapWords|textPersonName"
+                android:textAlignment="center" />
+
+            <TableLayout
+                android:id="@+id/typecontainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp">
+
+                    <TextView
+                        android:id="@+id/textview_type_name"
+                        android:layout_weight="1"
+                        android:gravity="end"
+                        android:text="@string/place_type"
+                        android:textAlignment="textEnd"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="4dp">
+
+                    <TextView
+                        android:id="@+id/textview_subtype_name"
+                        android:layout_weight="1"
+                        android:text="@string/sub_type"
+                        android:textAlignment="textEnd"
+                        android:textSize="18sp" />
+
+                    <Spinner
+                        android:id="@+id/spinnerSubType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TextView
+                android:id="@+id/showmore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/ic_keyboard_arrow_down_green_24dp"
+                android:text="@string/add_more_info"
+                android:textColor="@color/colorTextdarkGreen" />
+
+            <TableLayout
+                android:id="@+id/moredetailscontainer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="*"
+                android:visibility="gone">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editTextContactName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:hint="Contact Name"
+                        android:inputType="textPersonName" />
+
+                    <EditText
+                        android:id="@+id/teditTextContactNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:hint="Contact Number"
+                        android:inputType="phone" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/editTextDirect"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:layout_span="2"
+                        android:hint="@string/tell_us_how_to_get_there_easily"
+                        android:inputType="textMultiLine" />
+                </TableRow>
+
+            </TableLayout>
+
+         <!--   <com.barikoi.barikoi.Adapters.ImagePicker
+                android:id="@+id/imagepicker1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </com.barikoi.barikoi.Adapters.ImagePicker>-->
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonbook"
+            style="@style/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/submit" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

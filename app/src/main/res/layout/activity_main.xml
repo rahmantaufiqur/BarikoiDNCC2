@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main"
+    android:fitsSystemWindows="true"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- TODO: Update blank fragment layout -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.mapbox.mapboxsdk.maps.MapView
+                android:id="@+id/mapview"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                mapbox:mapbox_cameraTargetLat="23.777176"
+                mapbox:mapbox_cameraTargetLng="90.399452"
+                mapbox:mapbox_cameraZoom="12"
+                mapbox:mapbox_styleUrl="@string/mapbox_style_mapbox_streets" />
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center"
+                android:elevation="6dp"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/map_marker" />
+
+            <Button
+                android:id="@+id/buttonselectplace"
+                style="@style/buttonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/colorBarikoi"
+                android:text="জায়গা নির্বাচন করুন" />
+        </FrameLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/myLocationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_gravity="end|bottom"
+            android:layout_marginBottom="80dp"
+            android:layout_marginEnd="11dp"
+            app:backgroundTint="@color/colorBackroundWhite"
+            app:borderWidth="0dp"
+            app:elevation="6dp"
+            app:fabSize="normal"
+            app:layout_anchorGravity="top|end"
+            app:layout_dodgeInsetEdges="bottom"
+            app:pressedTranslationZ="12dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="11dp" />
+
+    </RelativeLayout>
+
+   <!-- <include layout="@layout/bottom_sheet_inputplace"/>-->
+    <include layout="@layout/bottom_sheet_price_rate"/>
+    <LinearLayout
+        android:id="@+id/suggestlistsheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mapbox_offline_white"
+
+        android:orientation="vertical"
+        app:layout_behavior="@string/bottom_sheet_behavior">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="List"
+            android:textAlignment="center" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/suggestlist"
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+            tools:listitem="@layout/cardviewlayout" />
+
+        <Button
+            android:id="@+id/buttonskip"
+            style="@style/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@color/colorBarikoi"
+            android:drawableRight="@drawable/next"
+            android:text="নির্ধারন করুন" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

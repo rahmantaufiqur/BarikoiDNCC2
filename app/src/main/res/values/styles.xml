@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="buttonStyle">@style/RobotoButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!--<item name="android:windowContentOverlay">@null</item>-->
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+
+        <item name="buttonStyle">@style/RobotoButtonStyle</item>
+        <!--<item name="android:statusBarColor" tools:ignore="NewApi">@color/colortransparent</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar.nostatusbar" parent="AppTheme.NoActionBar">
+        <item name="android:windowTranslucentNavigation" tools:targetApi="kitkat">false</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/opensansfamily</item>
+    </style>
+
+    <style name="RobotoButtonStyle" parent="android:Widget.Holo.Button">
+        <item name="android:fontFamily">@font/opensansfamily</item>
+    </style>
+
+    <style name="SplashScreen">
+        <item name="android:padding">0dp</item>
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFrame">@null</item>
+    </style>
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+        <!-- Optional, on Android 5+ you can modify the colorPrimaryDark color to match the windowBackground color for further branding-->
+        <!-- <item name="colorPrimaryDark">@android:color/white</item> -->
+    </style>
+
+    <style name="ThemeEditTextDark" parent="Widget.Design.TextInputLayout">
+        <!-- bottom line color -->
+        <item name="colorControlNormal">@color/fullwhite</item>
+        <!-- text color -->
+        <item name="android:textColor">@color/fullwhite</item>
+        <!-- hint text color -->
+        <item name="android:textColorHint">@color/fullwhite</item>
+        <item name="android:textCursorDrawable">@color/fullwhite</item>
+        <item name="android:textColorHighlight">@color/fullwhite</item>
+        <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
+        <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow
+        </item>
+        <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
+        <item name="passwordToggleContentDescription">@string/password_toggle_content_description
+        </item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+    <style name="ListShareButton">
+        <item name="android:layout_width">32dp</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:background">@drawable/list_share_button_selector</item>
+
+        <item name="android:focusable">false</item>
+        <item name="android:elevation" tools:targetApi="lollipop">16dp</item>
+
+    </style>
+
+    <!-- <style name="MenuButtonsStyle">
+         <item name="fab_size">mini</item>
+         <item name="fab_shadowColor">#444</item>
+         <item name="elevation">4dp</item>
+         <item name="fab_colorNormal">@color/colorPrimary</item>
+         <item name="fab_colorPressed">@color/colorPrimaryDark</item>
+     </style>
+
+     <style name="ImageMenuButtonsStyle">
+         <item name="fab_size">mini</item>
+         <item name="fab_shadowColor">#444</item>
+         <item name="elevation">4dp</item>
+         <item name="fab_colorNormal">#5a5fc19d</item>
+         <item name="fab_colorPressed">#6c5fc19d</item>
+     </style>-->
+
+
+    <style name="buttonStyle" parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/colorBarikoi</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="AppTheme.NoActionBar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.NoActionBar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#595959</item>
+        <item name="android:colorAccent" tools:ignore="NewApi">#1b5e20</item>
+    </style>
+    <style name="TextInputLayoutHintText">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/colorBarikoi</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="shadoweffect">
+        <item name="android:textColor">#FFFfff</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="AppTheme.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@android:color/white</item>
+
+    </style>
+</resources>
