@@ -448,6 +448,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             originLocation = lastLocation;
             setCameraPosition(new LatLng(lastLocation.getLatitude(), lastLocation.getLongitude()));
         } else {
+            Toast.makeText(this, "addlocengine", Toast.LENGTH_SHORT).show();
             locationEngine.addLocationEngineListener(this);
         }
     }
@@ -482,7 +483,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                                 .create()
                                 .show();
                     else{
-                      initializeLocationEngine();
+                      enableLocation();
                     }
                 }
                 return;
@@ -494,24 +495,33 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(MapboxMap mapboxMap) {
         map=mapboxMap;
         enableLocation();
-    }
-
-    @SuppressLint("MissingPermission")
-    @Override
-    public void onConnected() {
-       locationEngine.requestLocationUpdates();
-       FloatingActionButton fab=findViewById(R.id.myLocationButton);
-       fab.setOnClickListener(new View.OnClickListener() {
+        FloatingActionButton fab=findViewById(R.id.myLocationButton);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("MissingPermission")
             @Override
             public void onClick(View v) {
                 @SuppressLint("MissingPermission")
                 Location lastLocation = locationEngine.getLastLocation();
                 if (lastLocation!=null) {
                     originLocation = lastLocation;
-                    setCameraPosition(new LatLng(originLocation.getLatitude(),originLocation.getLongitude()));
+                    Double lat = lastLocation.getLatitude();
+                    Double lon = lastLocation.getLongitude();
+                    LatLng latLng = new LatLng(lat, lon);
+                    map.moveCamera(CameraUpdateFactory.newLatLng(latLng));
+                }
+                else{
+                    locationEngine.requestLocationUpdates();
                 }
             }
         });
+
+    }
+
+    @SuppressLint("MissingPermission")
+    @Override
+    public void onConnected() {
+       locationEngine.requestLocationUpdates();
+
     }
 
     @SuppressLint("MissingPermission")
@@ -545,7 +555,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     protected void onStop() {
-
+        super.onStop();
         if (locationEngine != null) {
             locationEngine.removeLocationUpdates();
         }
@@ -553,17 +563,16 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             locationPlugin.onStop();
         }
         mapView.onStop();
-        super.onStop();
     }
 
     @Override
     protected void onDestroy() {
-
+        super.onDestroy();
         mapView.onDestroy();
         if (locationEngine != null) {
             locationEngine.deactivate();
         }
-        super.onDestroy();
+
     }
 
     @Override
